@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ueditor.test.dao.DocumentaionDao" >
+  <resultMap id="BaseResultMap" type="com.ueditor.test.pojo.Documentation" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="product" property="product" jdbcType="VARCHAR" />
+    <result column="page" property="page" jdbcType="VARCHAR" />
+    <result column="content" property="content" jdbcType="VARCHAR" />
+    <result column="content1" property="content1" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, name, product, page,content,content1
+  </sql>
+  
+  <select id="findByName" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from DOCUMENTATION
+    where name = #{name,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="findAll" resultType="com.ueditor.test.pojo.Documentation" >
+    select 
+    <include refid="Base_Column_List" />
+    from DOCUMENTATION
+  </select>
+  
+  <select id="findDocByProductAndPage" resultMap="BaseResultMap"  >
+    select 
+    <include refid="Base_Column_List" />
+    from DOCUMENTATION
+    where product = #{product,jdbcType=VARCHAR} and page = #{page,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from DOCUMENTATION
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from DOCUMENTATION
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.ueditor.test.pojo.Documentation" >
+    insert into DOCUMENTATION (id, name, product, page,content,content1)
+    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{product,jdbcType=VARCHAR}, 
+      #{page,jdbcType=VARCHAR}, #{content,jdbcType=VARCHAR}, #{content1,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ueditor.test.pojo.Documentation" >
+    insert into DOCUMENTATION
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="product != null" >
+        product,
+      </if>
+      <if test="page != null" >
+        page,
+      </if>
+      <if test="content != null" >
+        content,
+      </if>
+      <if test="content1 != null" >
+        content1,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="product != null" >
+        #{product,jdbcType=VARCHAR},
+      </if>
+      <if test="page != null" >
+        #{page,jdbcType=VARCHAR},
+      </if>
+      <if test="content != null" >
+        #{content,jdbcType=VARCHAR},
+      </if>
+      <if test="content1 != null" >
+        #{content1,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ueditor.test.pojo.Documentation" >
+    update DOCUMENTATION
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="product != null" >
+        product = #{product,jdbcType=VARCHAR},
+      </if>
+      <if test="page != null" >
+        page = #{page,jdbcType=VARCHAR},
+      </if>
+      <if test="content != null" >
+        content = #{content,jdbcType=VARCHAR},
+      </if>
+      <if test="content1 != null" >
+        content1 = #{content1,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ueditor.test.pojo.Documentation" >
+    update DOCUMENTATION
+    set name = #{name,jdbcType=VARCHAR},
+      product = #{product,jdbcType=VARCHAR},
+      page = #{page,jdbcType=VARCHAR},
+      content = #{content,jdbcType=VARCHAR},
+      content1 = #{content1,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

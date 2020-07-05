@@ -1,0 +1,937 @@
+[
+    {
+        "state": "closed", 
+        "id": "1", 
+        "iconCls": "icon-data", 
+        "text": "渠道分析", 
+        "children": [
+            {
+                "state": "closed", 
+                "id": "1-1", 
+                "text": "典型业务场景", 
+                "children": [
+                    {
+                        "id": "1-1-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('钻取查询','./channel/demo/drilldown/openpage','icon-job')>钻取查询</a>", 
+                        "children": [ ]
+                    }, 
+                    {
+                        "id": "1-1-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('数据提取','./channel/demo/getData/openpage','icon-job')>数据提取</a>", 
+                        "children": [ ]
+                    }, 
+                    {
+                    	"state": "closed",
+                        "id": "1-1-3", 
+                        "text": "集成BO", 
+                        "children": [ 
+                        	{
+                
+				                "id": "1-1-3-1", 
+				                "text": "<a href='javascript:void(0);' onclick=addTab('灵活查询','./demo/boQuery/openpage','icon-job')>灵活查询</a>", 
+				                "children": [ ]
+				                
+				            }
+                        ]
+                    }, 
+                    {
+                    	"state": "closed",
+                        "id": "1-1-4", 
+                        "text": "集成Tableau", 
+                        "children": [
+                        	{
+		                        "id": "1-1-4-1", 
+		                        "text": "<a href='javascript:void(0);' onclick=addTab('全月汇总','./demo/infoBoard/openpage1','icon-job')>全月汇总</a>", 
+		                        "children": [ ]
+		                    }, 
+		                    {
+		                        "id": "1-1-4-2", 
+		                        "text": "<a href='javascript:void(0);' onclick=addTab('当月监控','./demo/infoBoard/openpage2','icon-job')>当月监控</a>", 
+		                        "children": [ ]
+		                    }
+                         ]
+                    },
+                    {
+                        "id": "1-1-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('增删改','./demo/addDelUpd/openpage','icon-job')>增删改</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-1-6", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('代理人增删改','./demo/agtAddDelUpd/openpage','icon-job')>代理人增删改</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-1-7", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('单位构成情况','./demo/unitCom/openpage','icon-job')>单位构成情况</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "state": "closed",
+                        "id": "1-1-8", 
+                        "text": "图表", 
+                        "children": [
+                        	{
+		                        "id": "1-1-8-1", 
+		                        "text": "<a href='javascript:void(0);' onclick=addTab('饼图','./demo/pie/openpage','icon-job')>饼图</a>", 
+		                        "children": [ ]
+		                    }, 
+		                    {
+		                        "id": "1-1-8-2", 
+		                        "text": "<a href='javascript:void(0);' onclick=addTab('柱状图','./demo/bar/openpage','icon-job')>柱状图</a>", 
+		                        "children": [ ]
+		                    },
+		                    {
+		                        "id": "1-1-8-3", 
+		                        "text": "<a href='javascript:void(0);' onclick=addTab('曲线图','./demo/line/openpage','icon-job')>曲线图</a>", 
+		                        "children": [ ]
+		                    }
+                         ]
+                    }
+                ]
+            }, 
+            {
+                "state": "closed", 
+                "id": "1-2", 
+                "text": "提直降代监控", 
+                "children": [
+                    {
+                        "id": "1-2-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('提直降代快报','./channel/directAdminDaily/openpage','icon-job')>提直降代快报</a>", 
+                        "children": [ ]
+                    }, 
+                    {
+                        "id": "1-2-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('提直降代月报','./channel/directAdminMonthly/openpage','icon-job')>提直降代月报</a>", 
+                        "children": [ ]
+                    },
+                     {
+                        "id": "1-2-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('参考数据','./channel/directReference/openpage','icon-job')>参考数据</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-2-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('运输监控报表','./channel/directTransport/openpage','icon-job')>运输监控报表</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-2-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('销售监控报表','./channel/directSale/openpage','icon-job')>销售监控报表</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-2-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('提直降代月报明细表','./channel/directAdminMonthlyDetail/openpage','icon-job')>提直降代月报明细表</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },
+            {
+                
+                "state": "closed", 
+                "id": "1-3", 
+                "text": "渠道收入监控", 
+                "children": [
+                    {
+                        "id": "1-3-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('渠道总体情况','./channel/channelOverall/openpage','icon-job')>渠道总体情况</a>", 
+                        "children": [ ]
+                    }, 
+                    {
+                        "id": "1-3-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('销售构成','./channel/channelSaleConstitution/openpage','icon-job')>销售构成</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-3-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('始发构成','./channel/channelDepartureConstitution/openpage','icon-job')>始发构成</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-3-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('统签代理人','./channel/channelSignedAgent/openpage','icon-job')>统签代理人</a>", 
+                        "children": [ ]
+                    }
+                ]
+            }, 
+            {
+                "state": "closed", 
+                "id": "1-4", 
+                "text": "数据提取", 
+                "children": [
+                        {
+                            "id": "1-4-2-1", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('报表定义','./channel/getDataDetailDef/openpage','icon-job')>报表定义</a>", 
+                            "children": [ ]
+                        }, 
+                        {
+                            "id": "1-4-2-2", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('报表生成','./channel/getDataDetailGen/openpage','icon-job')>报表生成</a>", 
+                            "children": [ ]
+                        }, 
+                        {
+                            "id": "1-4-2-3", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('报表定义1','./base/baseGetDataDetailDef/openpage?theme_code=1','icon-job')>报表定义1</a>", 
+                            "children": [ ]
+                        }, 
+                        {
+                            "id": "1-4-2-4", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('报表生成1','./base/baseGetDataDetailGen/openpage?theme_code=1','icon-job')>报表生成1</a>", 
+                            "children": [ ]
+                        },
+                        {
+                            "id": "1-1-8-4", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('主题管理','./base/baseGetDataDetailTheme/openPage','icon-job')>主题管理</a>", 
+                            "children": [ ]
+                        },
+                        {
+                            "id": "1-1-8-5", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('测试','./base/baseGetDataDetailTheme/test','icon-job')>测试</a>", 
+                            "children": [ ]
+                        },
+                        {
+                            "id": "1-4-2-6", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('报表定义','./base/baseGetDataDetailDef/openpage?theme_code=RE001','icon-job')>报表定义</a>", 
+                            "children": [ ]
+                        }, 
+                        {
+                            "id": "1-4-2-7", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('报表生成','./base/baseGetDataDetailGen/openpage?theme_code=RE001','icon-job')>报表生成</a>", 
+                            "children": [ ]
+                        }, 
+                        {
+                            "id": "1-4-2-8", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('报表定义-销售基库','./base/baseGetDataDetailDef/openpage?theme_code=DWP_PSALCPNM','icon-job')>报表定义-销售基库</a>", 
+                            "children": [ ]
+                        }, 
+                        {
+                            "id": "1-4-2-9", 
+                            "text": "<a href='javascript:void(0);' onclick=addTab('报表生成-销售基库','./base/baseGetDataDetailGen/openpage?theme_code=DWP_PSALCPNM','icon-job')>报表生成-销售基库</a>", 
+                            "children": [ ]
+                        }
+                        
+                ]
+            }, 
+            {
+                "state": "closed", 
+                "id": "1-5", 
+                "text": "百元代理费", 
+                "children": [
+                    {
+                        "id": "1-5-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('始发口径-汇总','./channel/promAgent/openpage','icon-job')>始发口径-汇总</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-5-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('销售口径-汇总','./channel/promAgentE/openpage','icon-job')>销售口径-汇总</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-5-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('始发口径-明细','./channel/promAgentF/openpage','icon-job')>始发口径-明细</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-5-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('销售口径-明细','./channel/promAgentG/openpage','icon-job')>销售口径-明细</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-5-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('销售口径-明细(珠海)','./channel/promAgentH/openpage','icon-job')>销售口径-明细(珠海)</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },
+             {
+                "state": "closed", 
+                "id": "1-6", 
+                "text": "OCM数据模板", 
+                "children": [
+                    {
+                        "id": "1-6-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('管辖口径','./channel/ocmJurisdiction/openpage','icon-job')>管辖口径</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-6-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('考核入账','./channel/inspectionAccount/openpage','icon-job')>考核入账</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "1-6-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('权责发生入账','./channel/accrualAccount/openpage','icon-job')>权责发生入账</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },
+            {
+                "state": "open", 
+                "id": "1-7", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('业务对标','./channel/directSellingRatio/openpage','icon-job')>业务对标</a>", 
+                "children": [ ]
+            },
+            {
+                "state": "open", 
+                "id": "1-8", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('成本对标','./channel/chnDirectCost/openpage','icon-job')>成本对标</a>", 
+                "children": [ ]
+            }
+        ]
+    }, 
+    
+   
+    {
+        "state": "closed", 
+        "id": "2", 
+        "iconCls": "icon-report", 
+        "text": "经营分析", 
+        "children": [
+            {
+                "state": "closed", 
+                "id": "2-1", 
+                "text": "数据准备", 
+                "children": [
+                    {
+                        "id": "2-1-0", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('00-历史数据导入','./conduct/mchHisData/openpage','icon-job')>00-历史数据导入</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-1-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('01-初始化及异常状态处理','./conduct/adminInit/openpage','icon-job')>01-初始化及异常状态处理</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-1-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('02-外部数据上传','./conduct/fileControl/openpage','icon-job')>02-外部数据上传</a>", 
+                        "children": [ ]
+                    }, 
+                    {
+                        "id": "2-1-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('03-清洗规则维护','./conduct/clnRule/openpage','icon-job')>03-清洗规则维护</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-1-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('04-机号归属维护','./conduct/jhAssign/openpage','icon-job')>04-机号归属维护</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-1-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('05-可供座位数','./conduct/jhSeating/openpage','icon-job')>05-可供座位数</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-1-6", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('06-数据处理日志','./conduct/oprLog/openpage','icon-job')>06-数据处理日志</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-1-7", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('07-基础数据检查','./conduct/dataCheck/openpage','icon-job')>07-基础数据检查</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },{
+                "state": "closed", 
+                "id": "2-2", 
+                "text": "数据处理", 
+                "children": [
+                    {
+                        "id": "2-2-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step1-生产数据处理','./conduct/oprDataYy/openpage','icon-job')>Step1-生产数据处理</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step2-包机收入还原','./conduct/oprDataChr/openpage','icon-job')>Step2-包机收入还原</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step3-客票收入还原','./conduct/oprDataTkt/openpage','icon-job')>Step3-客票收入还原</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step4-缺班收入处理','./conduct/oprDataLack/openpage','icon-job')>Step4-缺班收入处理</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step5-货运收入还原','./conduct/oprDataCargo/openpage','icon-job')>Step5-货运收入还原</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-6", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step6-补充生产信息','./conduct/oprDataBcxx/openpage','icon-job')>Step6-补充生产信息</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-7", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step7-按账务数调整','./conduct/oprDataAdj/openpage','icon-job')>Step7-按账务数调整</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-8", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step8-营业外补贴','./conduct/oprDataYywbt/openpage','icon-job')>Step8-营业外补贴</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-9", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step9-逾期票证收入','./conduct/oprDataYqpzre/openpage','icon-job')>Step9-逾期票证收入</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-2-10", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('Step10-处理月数据备份','./conduct/oprMonDataBackup/openpage','icon-job')>Step10-处理月数据备份</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },{
+                "state": "closed", 
+                "id": "2-3", 
+                "text": "结果查询", 
+                "children": [
+                    {
+                        "id": "2-3-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('01-进度监控','./conduct/processView/openpage','icon-job')>01-进度监控</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-3-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('02-按承运月口径查询','./conduct/mchCarrierMon/openpage','icon-job')>02-按承运月口径查询</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-3-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('03-按处理月口径查询','./conduct/mchMonData/openpage','icon-job')>03-按处理月口径查询</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-3-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('04-按所属月口径查询','./conduct/mchBelongsMon/openpage','icon-job')>04-按所属月口径查询</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "2-3-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('05-当处理月数据查询','./conduct/mchCurrentMon/openpage','icon-job')>05-当处理月数据查询</a>", 
+                        "children": [ ]
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "state": "closed", 
+        "id": "4", 
+        "iconCls": "icon-report", 
+        "text": "全面预算", 
+        "children": [
+            {
+                "state": "open", 
+                "id": "4-1", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('版本管理','./budget/versionManage/openpage','icon-job')>版本管理</a>", 
+                "children": [ ]
+            },
+            {
+                "state": "closed", 
+                "id": "4-2", 
+                "text": "数据处理", 
+                "children": [
+                    {
+                        "id": "4-1-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('1.运力数据处理','./budget/planeUseRate/openpage','icon-job')>1.运力数据处理</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-1-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('2.客运数据处理','./budget/clnTktRevenue/openpage','icon-job')>2.客运数据处理</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-1-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('3.货邮数据处理','./budget/clnRevenue/openpage','icon-job')>3.货邮数据处理</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },
+            {
+                "state": "closed", 
+                "id": "4-3", 
+                "text": "主文件维护", 
+                "children": [
+                    {
+                        "id": "4-3-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('S01-月份','./budget/fileMonth/openpage','icon-job')>S01-月份</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('S02-机型','./budget/fileJx/openpage','icon-job')>S02-机型</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('S03-座位数','./budget/fileSeating/openpage','icon-job')>S03-座位数</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('S04-飞行单位','./budget/fileOwn/openpage','icon-job')>S04-飞行单位</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('S05-小时固定成本','./budget/fileHrsgdcb/openpage','icon-job')>S05-小时固定成本</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-6", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('S06-地区航线','./budget/fileDqhx/openpage','icon-job')>S06-地区航线</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-7", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P01-航段距离','./budget/fileDistance/openpage','icon-job')>P01-航段距离</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-8", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P02-单班轮档小时','./budget/fileBlkhrs/openpage','icon-job')>P02-单班轮档小时</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-9", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P03-航线片区','./budget/fileArea/openpage','icon-job')>P03-航线片区</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-10", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P04-平均在册飞机架数','./budget/fileRegdnum/openpage','icon-job')>P04-平均在册飞机架数</a>", 
+                        "children": [ ]
+                    }, 
+                    {
+                        "id": "4-3-11", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P05-机场三字码','./budget/fileAirport/openpage','icon-job')>P05-机场三字码</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-12", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P06-来回程','./budget/fileComeBack/openpage','icon-job')>P06-来回程</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-13", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P07-燃油费率','./budget/fileFuelrate/openpage','icon-job')>P07-燃油费率</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-14", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P08-小时变动成本','./budget/fileCost/openpage','icon-job')>P08-小时变动成本</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-15", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P09-历史数据飞行小时','./budget/hisFlightHour/openpage','icon-job')>P09-历史数据飞行小时</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "4-3-16", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('P10-历史数据收入成本','./budget/hisIncomeCost/openpage','icon-job')>P10-历史数据收入成本</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },
+            {
+                "state": "open", 
+                "id": "4-4", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('计划运力测算','./budget/planeUseRateSub/openpage','icon-job')>计划运力测算</a>", 
+                "children": [ ]
+            }
+        ]
+    },
+      {
+        "state": "closed", 
+        "id": "5", 
+        "iconCls": "icon-report", 
+        "text": "动态监控", 
+        "children": [
+            
+            {
+                "state": "closed", 
+                "id": "5-1", 
+                "text": "上传数据维护", 
+                "children": [
+                    {
+                        "id": "5-1-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('动态运力数据','./pas/doiPdycCap/openpage','icon-job')>动态运力数据</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-1-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('DSS收入数据','./pas/doiPdycDss/openpage','icon-job')>DSS收入数据</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-1-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('全年考核静态指标','./pas/doiPdycTag/openpage','icon-job')>全年考核静态指标</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-1-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('动态平衡指标','./pas/doiPdycBal/openpage','icon-job')>动态平衡指标</a>", 
+                        "children": [ ]
+                    },
+                     {
+                        "id": "5-1-5", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('机场码替换列表','./pas/refApid/openpage','icon-job')>机场码替换列表</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-1-6", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('责任区明细列表','./pas/refRop/openpage','icon-job')>责任区明细列表</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-1-7", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('文件监控','./monitor/fileListenerLog/openpage','icon-job')>文件监控</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },
+            {
+                "state": "closed", 
+                "id": "5-2", 
+                "text": "动态报表", 
+                "children": [
+                    {
+                        "id": "5-2-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('各单位总体情况','./pas/dopPdycBal/openpage','icon-job')>各单位总体情况</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-2-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('特征航线','./pas/dopPdycChk/openpage','icon-job')>特征航线</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-2-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('各单位总体情况','./pas/dopPdycBals/openpage','icon-job')>各单位总体情况</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-2-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('特征航线','./pas/dopPdycChks/openpage','icon-job')>特征航线</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },
+              {
+                              "state": "closed", 
+                "id": "5-3", 
+                "text": "数据提取", 
+                "children": [
+                    {
+                        "id": "5-2-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('报表定义-运输考核','./base/baseGetDataDetailDef/openpage?theme_code=chk-test','icon-job')>报表定义-运输考核</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-2-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('报表生成-运输考核','./base/baseGetDataDetailGen/openpage?theme_code=chk-test','icon-job')>报表生成-运输考核</a>", 
+                        "children": [ ]
+                    },{
+                        "id": "5-2-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('报表定义-常客考核','./base/baseGetDataDetailDef/openpage?theme_code=ck_test','icon-job')>报表定义-常客考核</a>", 
+                        "children": [ ]
+                    },
+                    {
+                        "id": "5-2-4", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('报表生成-常客考核','./base/baseGetDataDetailGen/openpage?theme_code=ck_test','icon-job')>报表生成-常客考核</a>", 
+                        "children": [ ]
+                    }
+                ]
+            },
+            {
+                "state": "open", 
+                "id": "5-3", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('外部数据监控','./pas/externalDoi/openpage','icon-job')>外部数据监控</a>", 
+                "children": [ ]
+            }
+        ]
+    },
+     {
+        "state": "closed", 
+        "id": "7", 
+        "iconCls": "icon-report", 
+        "text": "价值创造", 
+        "children": [
+            
+            {
+                "state": "open", 
+                "id": "7-1", 
+                "text": "价值创造指标柱状图", 
+                "children": [                  
+	                {	               
+		                "id": "7-1-1", 
+		                "text": "<a href='javascript:void(0);' onclick=addTab('使用说明','./pas/useInstruction/openpage','icon-job')>使用说明</a>", 
+		                "children": [
+	                  
+	                  ]
+	                },
+	                {	               
+		                "id": "7-1-2", 
+		                "text": "<a href='javascript:void(0);' onclick=addTab('价值创造柱状图','./pas/dwpPdycCov/openpage','icon-job')>柱状图展示</a>", 
+		                "children": [
+	                  
+	                  ]
+	                },
+	                {	               
+		                "id": "7-1-3", 
+		                "text": "<a href='javascript:void(0);' onclick=addTab('月度考核实际数','./pas/dwsPpasCov/openpage','icon-job')>月度考核实际数</a>", 
+		                "children": [
+	                  
+	                  ]
+	                }
+                ]
+            },
+            {   "state": "closed", 
+                "id": "7-2", 
+                "text": "主文件维护", 
+                "children": [
+	                {
+	               
+		                "id": "7-2-1", 
+		                "text": "<a href='javascript:void(0);' onclick=addTab('百元模拟价值','./pas/dosPpasVal/openpage','icon-job')>百元模拟价值</a>", 
+		                "children": [
+	                  
+	                  ]
+	                },
+		            {
+		                "id": "7-2-2", 
+		                "text": "<a href='javascript:void(0);' onclick=addTab('价值创造指标','./pas/dosPpasQuo/openpage','icon-job')>价值创造指标</a>", 
+		                "children": [ ]
+		            },
+		            {
+		                "id": "7-2-3", 
+		                "text": "<a href='javascript:void(0);' onclick=addTab('价值创造考核体系','./pas/dosPpasset/openpage','icon-job')>价值创造考核体系</a>", 
+		                "children": [ ]
+		            },
+		            {
+		                "id": "7-2-4", 
+		                "text": "<a href='javascript:void(0);' onclick=addTab('广深珠捆绑收入规模系数','./pas/dosPpascft/openpage','icon-job')>广深珠捆绑收入规模系数</a>", 
+ 		                "children": [ ]
+		            },
+		            {
+		                "id": "7-2-5", 
+		                "text": "<a href='javascript:void(0);' onclick=addTab('价值创造分月考核指标','./pas/dosPpasQsw/openpage','icon-job')>价值创造分月考核指标</a>", 
+		                "children": [ ]
+		            }
+                ]
+            },
+            {
+                "state": "closed", 
+                "id": "7-3", 
+                "text": "南航固定报表", 
+                "children": [                  
+                    
+                    {                  
+                        "id": "7-3-2", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('办事处常客销售收入（月报）','./pas/dwpPpasDpm/openpage?reportCode=dwpPpasDpm','icon-job')>办事处常客销售收入（月报）</a>", 
+                        "children": []
+                    },
+                    {                  
+                        "id": "7-3-3", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('国内单位属地单位销售收入（月报）','./pas/dwpPpasDpm/openpage?reportCode=dwpPpasPnm','icon-job')>国内单位属地单位销售收入（月报）</a>", 
+                        "children": []
+                    },
+                    {                  
+                        "id": "7-3-6", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('办事处常客销售收入（周报）','./pas/dwpPpasDpm/openpage?reportCode=dwpPpasDbw','icon-job')>办事处常客销售收入（周报）</a>", 
+                        "children": []
+                    },
+                    {                  
+                        "id": "7-3-7", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('国内单位属地单位销售收入（周报）','./pas/dwpPpasDpm/openpage?reportCode=dwpPpasDnw','icon-job')>国内单位属地单位销售收入（周报）</a>", 
+                        "children": []
+                    }
+                ]
+            }
+           
+        ]
+    },
+    {
+        "state": "closed", 
+        "id": "6", 
+        "iconCls": "icon-syste", 
+        "text": "系统监控", 
+        "children": [
+            {
+                "state": "closed", 
+                "id": "6-1", 
+                "text": "用户管理", 
+                "children": [
+                    {
+                        "id": "6-1-1", 
+                        "text": "用户基本信息", 
+                        "children": [
+                            {
+                                "id": "6-1-1-1", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('系统用户信息','./maintain/sysUserInfo/openpage','icon-job')>系统用户信息</a>", 
+                                "children": [ ]
+                            },
+                            {
+                                "id": "6-1-1-2", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('用户登录信息','./maintain/userLoginInfo/openpage','icon-job')>用户登录信息</a>", 
+                                "children": [ ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "id": "6-1-2", 
+                        "text": "在线用户管理", 
+                        "children": [
+                            {
+                                "id": "6-1-2-1", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('在线用户登录信息','./maintain/onlineUserInfo/openpage','icon-job')>在线用户登录信息</a>", 
+                                "children": [ ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "id": "6-1-3", 
+                        "text": "用户轨迹统计", 
+                        "children": [
+                            {
+                                "id": "6-1-3-1", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('用户操作查询','./maintain/sysProTrack/openpage','icon-job')>用户操作查询</a>", 
+                                "children": [ ]
+                            },
+                            {
+                                "id": "6-1-3-2", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('高频用户分布','./maintain/hfUserDistribute/openpage','icon-job')>高频用户分布</a>", 
+                                "children": [ ]
+                            },
+                            {
+                                "id": "6-1-3-3", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('共享登录用户','./maintain/sharedLoginUser/openpage','icon-job')>共享登录用户</a>", 
+                                "children": [ ]
+                            },
+                            {
+                                "id": "6-1-3-4", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('异常登录用户','./maintain/exceptionLoginUser/openpage','icon-job')>异常登录用户</a>", 
+                                "children": [ ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "id": "6-1-4", 
+                        "text": "自主分析", 
+                        "children": [ ]
+                    }
+                ]
+            },
+            {
+                "state": "closed", 
+                "id": "6-2", 
+                "text": "系统管理", 
+                "children": [
+                    {
+                        "id": "6-2-1", 
+                        "text": "系统信息", 
+                        "children": [
+                            {
+                                "id": "6-2-1-1", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('系统概览','./maintain/sysOverview/openpage','icon-job')>系统概览</a>", 
+                                "children": [ ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6-2-2", 
+                        "text": "系统活跃度统计", 
+                        "children": [
+                            {
+                                "id": "6-2-2-1", 
+                                "text": "<a href='javascript:void(0);' onclick=addTab('活跃度统计','./maintain/sysActive/openpage','icon-job')>活跃度统计</a>", 
+                                "children": [ ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6-2-3", 
+                        "text": "作业管理", 
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "state": "closed", 
+                "id": "6-3", 
+                "text": "系统监控相关主文件维护", 
+                "children": [
+                    {
+                        "id": "6-3-1", 
+                        "text": "<a href='javascript:void(0);' onclick=addTab('模块菜单方法维护','./maintain/sysFileMonitor/openpage','icon-job')>模块菜单方法维护</a>", 
+                        "children": [ ]
+                    }
+                ]
+            }
+        ]
+    },     
+    {
+        "state": "closed", 
+        "id": "3", 
+        "iconCls": "icon-system", 
+        "text": "主文件维护", 
+        "children": [
+            {
+                "id": "3-1", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('提前出票日分组','./master/casBeforeGroup/openpage','icon-job')>提前出票日分组</a>", 
+                "children": [ ]
+            },
+            {
+                "id": "3-2", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('舱位组规则','./master/masClassGroup/openpage','icon-job')>舱位组规则</a>", 
+                "children": [ ]
+            },
+            {
+                "id": "3-3", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('承运节假日','./master/masHoliday/openpage','icon-job')>承运节假日</a>", 
+                "children": [ ]
+            }
+        ]
+    },
+    {
+        "state": "closed", 
+        "id": "5", 
+        "iconCls": "icon-system", 
+        "text": "测试", 
+        "children": [
+            {
+                "id": "5-1", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('测试mybatis','./channel/testMybatis/openpage','icon-job')>测试mybatis</a>", 
+                "children": [ ]
+			},
+            {
+                "id": "5-2", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('重跑数据','./sltcpn/repairdata/openpage','icon-job')>重跑数据</a>", 
+                "children": [ ]
+            },
+            {
+                "id": "5-3", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('销售基库监控','./sltcpn/monitordata/openpage','icon-job')>销售基库监控</a>", 
+                "children": [ ]                                   
+            },
+            {
+                "id": "5-4", 
+                "text": "<a href='javascript:void(0);' onclick=addTab('添加说明文档','./base/documentation/openpage','icon-job')>添加说明文档</a>", 
+                "children": [ ]                                   
+            }
+        ]
+    }
+]

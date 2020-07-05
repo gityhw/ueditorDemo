@@ -1,0 +1,24 @@
+{
+	"form":{
+        "attributes":{
+            "action":"../../endpoints/echo.php",
+            "method":"post"
+        },
+        "buttons":{
+            "submit":{},
+            "reset":{}
+        }
+    },
+    "fields": {
+        "prm_moth": {
+        	"type": "date",
+            "label": "处理月"
+        },
+        "car_moth": {
+            "label": "承运月"
+        },
+        "tkt_moth": {
+            "label": "出票月"
+        }
+    }
+}

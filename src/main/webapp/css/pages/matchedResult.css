@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+.north>*{
+	margin-top:7px;
+}
+.new{
+	height: 30px;
+	line-height: 30px;
+}
+.new>h2,h3,h4,h5{
+	font-size: 13px;
+	display: inline-block;
+	font-weight: normal;
+	margin:0 15px;
+	width: 200px;
+}

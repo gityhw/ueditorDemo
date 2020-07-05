@@ -1,0 +1,8 @@
+[{"id":"全部","text": "全部",
+		"children": [{"id":"DOI_PDYCCAP","text": "动态运力数据"},
+		{"id":"DOI_PDYCDSS","text": "DSS收入数据"},
+		{"id":"DOI_PDYCTAG","text": "全年考核静态指标"},
+		{"id":"REFAPT_D","text": "机场代码替换列表"},
+		{"id":"REFROP","text": "责任区明细列表"},
+		{"id":"DOI_PDYCBAL","text": "动态平衡指标"}
+		]}]

@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "prm_moth": {
+            "type": "string"
+        },
+        "car_moth": {
+            "type": "string"
+        },
+        "tkt_moth": {
+            "type": "string"
+        }
+   }
+}

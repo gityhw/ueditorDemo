@@ -1,0 +1,293 @@
+BODY {
+/* 	background: url('../../img/pages/bodyBackground.jpg'); */
+	background-size: cover;
+}
+
+.panel-body {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#menu {
+/* 	background-color: rgba(255, 255, 255, 0.5); */
+	background: url('images/backgroundMenu.png');
+	background-size: cover;
+}
+
+.tabs-header {
+	background: url('../../img/pages/menuNav.png');
+}
+
+/* 菜单栏区域 */
+BODY>div.layout-panel-west {
+	margin-top: 1px;
+}
+
+/* 工作区域 */
+BODY>div.layout-panel-center {
+	margin-top: 1px;
+}
+
+/* 页脚 */
+#footer {
+	background: url('../../img/pages/footer.png');
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#0f659c,endColorStr=#168ad3); /*IE 6 7 8*/ 
+}
+
+/* 页脚文字 */
+#footer>span {
+	padding-top: 2px;
+	color: #e1e8fa;
+	height: inherit;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	width: inherit;
+}
+
+/* 页头  */
+#region-nouth {
+	background: url('images/headerBackground.png');
+	background-size: cover;
+}
+
+/* 导航栏 */
+#menu {
+	overflow-y: hidden;
+}
+
+#menu a {
+	text-decoration:none;
+	color: black;
+}
+
+/* 导航栏节点 */
+#menu .tree-node {
+	height: 22px;
+	white-space: nowrap;
+	cursor: pointer;
+	padding: 5px 5px 0px 10px;
+}
+
+/* 导航栏文字前图片 */
+#menu span.tree-icon {
+	display: none;
+}
+
+
+/* 导航栏一级菜单 */
+#treeMenu>li{
+	margin: 1px 0px;
+}
+
+/* 导航栏一级菜单填充 */
+#treeMenu>li>div{
+	border: 1px solid #a6d0fe;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#e0effe,endColorStr=#a7d1fd); /*IE 6 7 8*/ 
+	background: -ms-linear-gradient(top, #e0effe, #a7d1fd);        /* IE 10 */
+	background:-moz-linear-gradient(top, #e0effe, #a7d1fd);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#e0effe), to(#a7d1fd));/*谷歌*/ 	
+	background: -webkit-linear-gradient(top, #e0effe, #a7d1fd);   /*Safari5.1 Chrome 10+*/	
+}
+
+/* 导航栏一级菜单展开/收缩按钮位置 */
+#treeMenu>li>div>span.tree-hit{
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+/* 导航栏一级菜单展开时按钮 */
+#treeMenu>li>div>span.tree-expanded{
+	background: url('../../img/pages/navi-btn-1.png');
+	background-repeat: no-repeat;
+	background-position-y: 1px;
+}
+
+/* 导航栏一级菜单收缩时按钮 */
+#treeMenu>li>div>span.tree-collapsed {
+	background: url('../../img/pages/navi-btn-2.png');
+	background-repeat: no-repeat;
+	background-position-y: 1px;
+}
+
+/* 导航栏一级菜单字体 */
+#treeMenu>li>div>span.tree-title {
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: #010e35;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	padding: 0 2px;
+	height: 18px;
+	line-height: 18px;
+}
+
+/* 导航栏非一级菜单字体 */
+#menu .tree-title {
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #010e35;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	padding: 0 2px;
+	height: 18px;
+	line-height: 18px;
+}
+
+/* 导航栏非一级菜单选中样式 */
+.tree-node-selected{
+	background: #61B2EA;
+	border: 1px solid #3c90de;
+}
+
+/* 导航栏非一级菜单收缩时按钮 */
+#menu .tree-collapsed {
+	background: url('../../img/pages/navi-btn-3.png');
+	background-repeat: no-repeat;
+	background-position: 2px 5px;
+}
+
+/* 导航栏非一级菜单展开时按钮 */
+#menu .tree-expanded{
+	background: url('../../img/pages/navi-btn-4.png');
+	background-repeat: no-repeat;
+	background-position: 2px 5px;
+}
+
+/* 导航栏上方标题 */
+#menuTitle {
+	height: 33px;
+	width: 225px;
+	background: url('../../img/pages/menuNav.png');
+	display: inline-block;
+	padding: 0px 10px 0px 15px;
+}
+
+/* 导航栏上方标题用户头像 */
+#menuTitle>img {
+	width: 21px;
+	height: 21px;
+	margin: 5px;
+}
+
+/* 导航栏上方标题用户姓名 */
+#menuTitle>div {
+	width: 150px;
+	height: 14px;
+	display: inline-block;
+	margin: 9px 5px 9px 15px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #e1e8fa;
+	position: absolute;
+}
+
+#syslogo{
+	margin: 10px 0px 0px 20px;
+	height: 48px;
+}
+
+/* 页头Meta菜单 */
+#sysMeta {
+	margin: 18px 35px 0px 0px;
+	display: inline;
+	float: right;
+	position: relative;
+	height: 33px;
+	width: 138px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#0094c1,endColorStr=#00b7ee);
+	background: -ms-linear-gradient(top, #0094c1, #00b7ee);
+	background: -moz-linear-gradient(top, #0094c1, #00b7ee);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#0094c1), to(#00b7ee));
+	background: -webkit-linear-gradient(top, #0094c1, #00b7ee);
+	border-radius: 10px;
+	border: 1px solid #4991E0;
+	overflow: hidden;
+}
+
+/* 页头Meta菜单中按钮 */
+#sysMeta>div {
+	border-right: 1px solid #4991E0;
+	float: left;
+	height: 33px;
+	width: 45px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* 登出按钮 */
+#btnUserLogout {
+	background: url('images/logout.png');
+	background-size: 19px;
+}
+
+/* 个人资料按钮 */
+#btnPersonalInformation {
+	background: url('images/personalInformation.png');
+	background-size: 20px;
+}
+
+/* 选择按钮 */
+#switch {
+	background: url('images/switch.png');
+	background-size: 28px 17px;
+}
+
+/* 页头下拉菜单 */
+#centerContent {
+	height: 100%;
+}
+
+/* 菜单收缩按钮 */
+#navBtn {
+	height: 100%;
+	width: 8px;
+	float: left;
+	background: url('../../img/pages/navCollapseBtn.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-left: 1px solid #6ab1e6;
+	cursor:pointer
+}
+
+.layout-expand-west {
+	background: url('../../img/pages/navExpendBtn.png');
+	background-repeat: no-repeat;
+	background-position-y: center;	
+}
+
+.layout-expand-west .layout-button-right {
+	background: url('../../img/pages/pin.png');
+	background-size: cover;
+}
+
+.layout-expand-west .panel-body{
+	border: 0px;
+}
+
+/* 菜单栏搜索后头部 */
+.layout-expand-west .panel-header {
+	height: 29px;
+	border: 0px;
+	padding: 0px;
+	margin-top: 1px;
+	background: url('../../img/pages/menuNav.png');
+}
+
+.layout-button-right {
+	display: none;
+}
+
+/* .none-display{ */
+/* 	display: none; */
+/* } */
+
+/* 菜单栏的容器div，设置滚动条 */
+#menuContent {
+	overflow: auto;
+}

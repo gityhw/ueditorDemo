@@ -1,0 +1,11 @@
+[
+	{"createId":"wangjsh","createTime":"null","filterDataType":"list","filterName":"PRC_MONTH","filterOpr":"=,>,<","filterText":"处理月","filterListValue":"A,B,C","filterType":"DETAIL","id":"578bccc9-5ed4-0008-e053-0a010f37e3bd"},
+	{"createId":"wangjsh","createTime":"null","filterDataType":"date","filterName":"SALE_DATE","filterOpr":"=","filterText":"出票日期","filterType":"DETAIL","id":"578bccc9-5ed4-0008-e053-dcdcs"},
+	{"createId":"wangjsh","createTime":"null","filterDataType":"text","filterName":"MAJOR_YN","filterOpr":"=","filterText":"是否大客户","filterType":"DETAIL","id":"578bccc9-5ed4-0008-e053-0"},
+	{"createId":"wangjsh","createTime":"null","filterDataType":"number","filterName":"NET_REV_CNY","filterOpr":">","filterText":"净收入（人民币）","filterType":"DETAIL","id":"578bc008-e053-0a010f37e3bd"},
+	{"createId":"wangjsh","createTime":"null","filterDataType":"text","filterName":"TKT_NO","filterOpr":"=,>,<,>=,<=,<>,between,not between,in,not in, like","filterText":"票号","filterType":"DETAIL","id":"578bccc9-5ed4-0e3bd"},
+	{"createId":"wangjsh","createTime":"null","filterDataType":"text","filterName":"TKT_TYPE","filterOpr":"=,>,<,>=","filterText":"票证种类","filterType":"DETAIL","id":"57ed4-0008-e053-0a010f37e3bd"},
+	{"createId":"wangjsh","createTime":"null","filterDataType":"list","filterName":"SALE_COUNTRY_NAME","filterOpr":"between","filterText":"销售国家名称","filterListValue":"D,I","filterType":"DETAIL","id":"578bcccd"},
+	{"createId":"wangjsh","createTime":"null","filterDataType":"number","filterName":"YQ_LOCAL","filterOpr":"between,not between","filterText":"燃油费（当地货币）","filterType":"DETAIL","id":"cds0a010f37e3bd"},
+	{"createId":"wangjsh","createTime":"null","filterDataType":"number","filterName":"NET_REV_LOCAL","filterOpr":"=,>,<,>=,<=,<>,between,not between,in,not in, like","filterText":"净收入（当地货币）","filterType":"DETAIL","id":"578bc0008-e053-0a010f37e3bd"}
+]
